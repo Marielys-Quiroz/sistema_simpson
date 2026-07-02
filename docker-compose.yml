@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  simpson-app:
+    build: .
+    container_name: simpson_dashboard
+    restart: always
+    networks:
+      - proxy-network
+
+networks:
+  proxy-network:
+    external: true

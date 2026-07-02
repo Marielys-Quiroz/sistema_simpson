@@ -1,0 +1,8 @@
+fastapi
+pydantic
+sympy
+matplotlib
+numpy
+nicegui
+httpx
+uvicorn
